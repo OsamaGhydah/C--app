@@ -540,7 +540,7 @@
             // Skip && Take 
             // بوخذوا ارقام وبوخذ وبطنش على حسب القيمة 
 
-            var skip = cars.Skip(1).Take(3) ;
+            var skip = cars.Skip(1).Take(3);
 
             foreach (var des in skip)
             {
@@ -558,9 +558,14 @@
             Console.WriteLine($"single : {single.nameType}");
 
 
-            var singleOR = cars.SingleOrDefault(l => l.nameType == "BMW1",c3);
+            var singleOR = cars.SingleOrDefault(l => l.nameType == "BMW1", c3);
 
             Console.WriteLine($"singleOR : {singleOR.nameType}");
+
+
+
+
+
         }
     }
 }
